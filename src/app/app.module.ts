@@ -1,6 +1,8 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
+// Material
+import { MatButton, MatMenu, MatMenuContent, MatCard, MatList, MatDivider, MatHeaderRow} from '@angular/material';
 import {AppComponent} from './app.component';
 import {HeaderComponent} from './header/header.component';
 import {RecipesComponent} from './recipes/recipes.component';
